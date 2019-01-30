@@ -1,7 +1,7 @@
-c1=input("enter columns for m1:")
-r1=input("enter rows of m1:")
-c2=input("enter columns form2:")
-r2=input("enter rows for m2:")
+c1=int(input("enter columns for m1:"))
+r1=int(input("enter rows of m1:"))
+c2=int(input("enter columns form2:"))
+r2=int(input("enter rows for m2:"))
 m1={};
 m2={};
 if(c1==r2):
@@ -15,7 +15,7 @@ if(c1==r2):
 	for i in range(0,r2):
 		for j in range(0,c2):
 			b[i,j]=int(input())
-	r={}
+	r={};
 	for i in range(0,r1):
 		for j in range(0,c2):
 			r[i,j]=0;
